@@ -24,6 +24,10 @@ const SearchBar = styled.div`
     background: var(--bg-color);
     padding-left: 20px;
     border-radius: 2px;
+
+    @media (max-width: 340px) {
+        padding-left: 0;
+    }
 `;
 
 const SearchInput = styled.input`
@@ -42,6 +46,10 @@ const SearchInput = styled.input`
     :-ms-input-placeholder {
         color: #ccc;
         font-size: 0.9rem;
+    }
+
+    @media (max-width: 340px) {
+        padding-left: 0;
     }
 `;
 
