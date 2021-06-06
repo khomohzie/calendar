@@ -11,7 +11,7 @@ const Profile = () => {
             height: theme.spacing(4),
         },
         keyboardArrow: {
-            color: "darkblue"
+            color: "rgb(108, 95, 196)"
         }
     }));
 
