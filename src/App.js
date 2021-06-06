@@ -1,6 +1,7 @@
 import './App.css';
 import Calendar from './components/Calendar';
 import Header from './components/Header/Header';
+import Sidebar from './components/Sidebar/Sidebar';
 
 function App() {
   return (
@@ -10,14 +11,9 @@ function App() {
       </header>
 
       <main>
-        <div id="logo">
-          <span className="icon">date_range</span>
-          <span>
-            <b>Sel's</b> Calendar
-          </span>
-        </div>
+        <Sidebar />
 
-        <Calendar />
+        {/* <Calendar /> */}
       </main>
     </div>
   );
