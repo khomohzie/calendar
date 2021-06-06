@@ -1,8 +1,8 @@
 import './App.css';
 import Calendar from './components/Calendar';
-import Header from './components/header/Header';
-import Sidebar from './components/sidebar/Sidebar';
-import RightWidget from './components/rightwidget/RightWidget'
+import Header from './components/head/Header';
+import RightWidget from './components/rightwid/RightWidget';
+import Sidebar from './components/side/Sidebar';
 
 function App() {
   return (

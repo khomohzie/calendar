@@ -19,7 +19,7 @@ import { WiDayCloudy } from "react-icons/wi"
 import "react-pro-sidebar/dist/css/styles.css";
 import "./Sidebar.css";
 
-const Header = () => {
+const Sidebar = () => {
 
     const activeStyle = {
         color: "rgb(108, 95, 196)",
@@ -47,4 +47,4 @@ const Header = () => {
     );
 };
 
-export default Header
+export default Sidebar
