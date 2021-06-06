@@ -1,6 +1,7 @@
 import React from 'react'
 import { Avatar, IconButton, makeStyles } from '@material-ui/core'
 import { KeyboardArrowDownRounded } from '@material-ui/icons';
+import Merlin from '../../assets/images/c.jpg'
 
 const Profile = () => {
 
@@ -18,7 +19,7 @@ const Profile = () => {
 
     return (
         <div className="d-flex align-items-center">
-            <Avatar className={classes.avatarStyle} />
+            <Avatar className={classes.avatarStyle} src={Merlin} />
 
             <span className="pl-3">
                 Sel Mek
